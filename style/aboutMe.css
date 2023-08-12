@@ -1,0 +1,26 @@
+/* Setting background color */
+#about-me {
+    height: 100vh;
+    background-color: #272829;
+}
+
+/* Setting Content */
+.aboutme-content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* Change text color */
+.content-about {
+    color: #FFF6E0;
+    text-align: center;
+}
+
+/* Give margin img */
+.content-about > img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* End Setting Content */

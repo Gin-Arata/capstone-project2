@@ -1,0 +1,35 @@
+#contact {
+    height: 100vh;
+    background-color: #272829;
+}
+
+.contact-content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF6E0;
+    text-align: left;
+}
+
+.contact-content > ul {
+    list-style: none;
+}
+
+.contact-content > h1 {
+    margin-left: 30px;
+}
+
+.contact-content li {
+    margin-bottom: 20px;
+}
+
+.contact-content a {
+    text-decoration: none;
+    color: #FFF6E0;
+}
+
+.contact-name {
+    font-family: 'Ruwudu', serif;
+    margin-left: 10px;
+}

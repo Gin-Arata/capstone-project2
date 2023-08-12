@@ -1,0 +1,72 @@
+/* Setting Section Home */
+#Home {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/background-header-code.jpg");
+    background-size: cover;
+}
+
+/* Give a effect of black shape */
+.background-color {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: #000000a0;
+}
+
+/* Change background color of navbar */
+.container {
+    background-color: #393838;
+    width: 30%;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    -ms-border-radius: 0 0 7px 7px;
+    -o-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+}
+
+/* Change background color pills */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #61677A;
+    color: #FFF6E0;
+}
+
+/* Configure Text Color Navbar */
+.nav {
+    --bs-nav-link-color: #FFF6E0;
+    --bs-nav-link-hover-color: #61677A;
+}
+
+/* Home Content Config */
+.home-content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: #FFF6E0;
+    text-align: center;
+}
+/* End home content config */
+
+
+/* Configuration Font Family Text */
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    letter-spacing: 4px;
+    font-family: 'Ruwudu', serif;
+}
+
+p {
+    font-family: 'Ruwudu', serif;
+}
+/* End of Configuration Font */
